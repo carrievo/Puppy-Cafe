@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+ul{
+    padding:0;
+    margin:0;
+}
+
+li{
+    list-style:none;
+}
+
+/*website styles*/
+
+header{
+    background:orange;
+    height: 100px;
+}
+
+h1{
+    float:left;
+    margin-left: 20px;
+    margin-right: 50px;
+    color: teal;
+    text-shadow: 1px 1px 1px white;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+nav li a{
+    color: teal;
+    font-size: 20px;
+}
+
+/*when i put my mouse of the text, do*/
+nav li a:hover{
+    color: white;
+}
+
+/*main tag rules*/
+main{
+    width: 960px;
+    margin: 30px auto;
+    min-height: 700px;
+}
+
+/*an ID uses the number /# sign*/
+#hero{
+    height: 450px;
+    width: 100%;
+}
+
+p{
+    text-align: center;
+}
+
+/*use a period in front of the class name to target element name*/
+.puppy list{
+    height: 150px;
+    width: 300px;
+}
+
+main li{
+    float: left;
+    margin-right: 3px;
+    margin-top: 50px;
+}
+
+main li: :last-child{
+    margin-right: 0px;
+}
+
+footer{
+    height: 100px;
+    background:orange;
+}
+
+footer{
+    
+}
