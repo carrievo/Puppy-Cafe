@@ -39,7 +39,7 @@ nav li a{
     font-size: 20px;
 }
 
-/*when i put my mouse of the text, do*/
+/*when i put my mouse of the text, do these rules*/
 nav li a:hover{
     color: white;
 }
@@ -61,7 +61,7 @@ p{
     text-align: center;
 }
 
-/*use a period in front of the class name to target element name*/
+/*use a period in front of the class name to target element name with that class name*/
 .puppy list{
     height: 150px;
     width: 300px;
@@ -82,6 +82,6 @@ footer{
     background:orange;
 }
 
-footer{
-    
+footer p{
+    padding-top: 30px;
 }
