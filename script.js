@@ -36,7 +36,7 @@ function getamOrpm(time){
 function getGreeting(timeofday, name, ampm){
     let greeting = '';
 
-    if(name === 'Carrie'){
+    if(name === 'carrie'){
         greeting = timeofday + ' ' + name + '. WOOF WOOF! I hope you have a great day. The hour time is ' + ampm;
     } else{
         greeting = timeofday + ' WOOF WOOF! Today is a good day. The time right now is ' + ampm;
@@ -57,8 +57,19 @@ let ampm = getamOrpm(time);
 let greeting = getGreeting(timeOfDay, name, ampm);
 writeToDocument(greeting);
 
+var userChoice;
 
-let rating = prompt('what is your rating for this cafe?');
+userChoice = prompt('do you like dogs, cats or neither?');
+console.log('User choice: ' + userChoice);
+
+if (userChoice !== 'dog' && userChoice !== 'cat' && userChoice !== 'neither') {
+    userChoice = prompt('Are you sure?');
+} else if (userChoice === computerChoice) {
+    userChoice = prompt('You may enter, but first...');
+    console.log('New user choice: ' + userChoice);
+}
+
+let rating = prompt('From 1-30, how much do you love dogs?');
 
 for(let i = 0; i < rating; i++){
 document.write('<img class="smileStar" src="star.png"/>');
