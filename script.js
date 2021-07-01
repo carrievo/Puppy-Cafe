@@ -56,3 +56,11 @@ let name = getName();
 let ampm = getamOrpm(time);
 let greeting = getGreeting(timeOfDay, name, ampm);
 writeToDocument(greeting);
+
+
+let rating = prompt('what is your rating for this cafe?');
+
+for(let i = 0; i < rating; i++){
+document.write('<img class="doglist" src="star.png"/>');
+}
+
