@@ -61,6 +61,6 @@ writeToDocument(greeting);
 let rating = prompt('what is your rating for this cafe?');
 
 for(let i = 0; i < rating; i++){
-document.write('<img class="doglist" src="star.png"/>');
+document.write('<img class="smileStar" src="star.png"/>');
 }
 

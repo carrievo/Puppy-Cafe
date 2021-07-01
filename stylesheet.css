@@ -65,6 +65,12 @@ p{
     text-align: center;
 }
 
+.smileStar{
+    height: 30px;
+    width: 30px;
+}
+
+
 /*use a period in front of the class name to target element name with that class name*/
 .doglist{
     height: 270px;
